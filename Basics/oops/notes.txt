@@ -1,0 +1,47 @@
+CLASS
+All the templates that combines members and member function
+A class is not a executable unit ,To execute the member function of the class it is defined to be having some instance.
+A class provides the facility of encapsulation where multiple data members and the functions are binded together and kept hidden from the outside world.
+A class does not take space on the memory because it is not an executable unit.The memory space is occupied by the object of a class .
+It is a user defined datatype and CLASS keyword is used to define a class .
+A class can be an abstract class that does not any any functional body that is known as abstract class .
+A class can be inherited  by another class
+
+OBJECT 
+An object is an instance of a class.
+An Object represents a single class at a time.
+A single class can have multiple objects at a time.
+An object can access data and the function of the class .
+An object is an executable unit for a class .
+The object of the same class can execute any of the function present in the class 
+Objects cant be inherited , they can't show polymorphic behavior and abstract behavior.
+Object can be created during runtime that is known as real world object creation.
+The object represents interfaces
+
+polymorphism : it is one of the pillars of the oops .
+Poly means many and morphism means many form.
+A polymorphism can be categorized  into 
+compile time and runtime polymorphism.
+Example of compile time polymorphism is method overloading : we can have multiple methods with same name but different signatures .
+Example of runtime polymorphism is method overriding: when we create a method with same signatures in the child class then the content of the method gets overridden by the child class method.
+
+
+Inheritance : When a class calls  the properties of the another class then the function is knows as inheritance. The class that provides the properties is called the parent class and ohter one is  child class.
+The inheritance executes properly with thee object of  the child class . A parent class can work parallely without calling the properties of the child class.
+
+There may be a possiblity the parent class and the child class have name function in this situation the child class function takes priority to get execute and they override the functionality of the parent class.
+
+Types of inheritance
+
+Single level
+multi level
+multiple 
+hybrid 
+hierarchical 
+
+
+abstraction is a properties to hidding thee data values abstraction can be done with the help of absstract classes and the abstract function .A class without function body is knnow as abstract class and the function without body is knnow as abstract function .
+abstract function are the speciality of the abstract classes 
+
+The exectpiton are semantic errors that occurs during runtime they are considered as logical errors ..And can be rectified with exectpiton handling mechanism .
+The  errroes are typo errors or wrong syntax error.These are considered as compile time errors .they should be rectified during the compilation of the program a program can't be execute with the presence of syntax errors . But a program can be execute with the presence of exectpiton.
