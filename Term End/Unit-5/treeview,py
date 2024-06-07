@@ -1,0 +1,14 @@
+from tkinter import *
+from tkinter import ttk
+
+root=Tk()
+root.geometry("400x200") 
+tree=ttk.Treeview(root,column=("0","1"))
+tree.column("#0")
+tree.heading("#0",text="Name")
+tree.column("#1")
+tree.heading("#1",text="Roll")
+
+tree.insert(parent='', index='end', iid=1, text='Sujal', values=('sujs',"sdds"))
+tree.pack()
+mainloop()
