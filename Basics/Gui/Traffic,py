@@ -1,0 +1,8 @@
+# write a python program that repersents traffic light and name 
+import tkinter as tk
+m=tk.Tk()
+
+canvas=tk.Canvas(tk,bg="yellow",height=250,width=300)
+green=canvas.create_oval(80, 30, 140,
+                     150,
+                     fill="blue")

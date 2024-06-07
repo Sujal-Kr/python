@@ -1,0 +1,13 @@
+Python supports Gui
+to execute Gui objects on .One of the major library is Tkiner.
+This library provides the facility to create any type of gui Obbject.
+The Most Common object are Label box text box message box window menu bar Tables List box 
+label box is used to display any text on the screen .We can't make any changes in the label box .
+A label box can work as a button for event handlings.
+
+
+From the Kinter library we  have to create an object for Tk class(Tkiner Kit).
+This object provides the basic rule for other Objects Such as Label,textBox etc.
+From the tk Object we can call any of the member with dot operator eg:tk.label()
+Whatever the Gui Object we are creating tp displays the object we need the pack funciton .
+The root canvas will execute with the help of mainloop function .
