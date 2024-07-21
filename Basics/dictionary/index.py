@@ -6,7 +6,6 @@ collection = {
   "dob": "20 may 2003"
 }
 
-
 # print(collection)
 # print(collection.keys())
 # print(collection.values())

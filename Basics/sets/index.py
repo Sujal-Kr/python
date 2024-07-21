@@ -17,6 +17,7 @@ intersection_set = set1 & set2
 # This will result in {4, 5}, as these elements are present in both sets
 
 # Output
+
 print("Difference:", difference_set)
 print("Intersection:", intersection_set)
 

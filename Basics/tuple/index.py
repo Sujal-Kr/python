@@ -15,4 +15,4 @@ neseted_tupple =((1,2),(0,9))
 print(neseted_tupple)
 
 
-secular=tuple(True,1,"sujal")
+# secular=tuple(True,1,"sujal")
